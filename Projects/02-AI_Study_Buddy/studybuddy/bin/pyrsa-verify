@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/abhinav/Documents/Obsidian/Work-Vault/Curriculums/AI_ML/Generative AI/Projects/02-AI_Study_Buddy/studybuddy/bin/python3.11" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from rsa.cli import verify
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(verify())
