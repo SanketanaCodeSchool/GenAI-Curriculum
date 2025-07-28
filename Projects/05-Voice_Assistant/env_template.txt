@@ -1,0 +1,7 @@
+# OpenAI API Key
+# Get your API key from: https://platform.openai.com/account/api-keys
+OPENAI_API_KEY=your-openai-api-key-here
+
+# ElevenLabs API Key
+# Get your API key from: https://elevenlabs.io/
+ELEVENLABS_API_KEY=your-elevenlabs-api-key-here 

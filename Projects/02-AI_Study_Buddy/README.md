@@ -20,8 +20,9 @@ pip install streamlit google-generativeai python-dotenv
 
 2. Create `.env` file:
 ```bash
-# Create .env file and add your Gemini API key
-GEMINI_API_KEY=your-gemini-api-key-here
+# Copy the template file and rename it to .env
+cp env_template.txt .env
+# Edit .env and add your actual Gemini API key
 ```
 
 3. Run the application:
@@ -39,7 +40,7 @@ This project uses a `.env` file to securely store your Google Gemini API key. Th
 
 **Example `.env` file:**
 ```env
-GEMINI_API_KEY=your-gemini-api-key-here
+GEMINI_API_KEY=your-actual-gemini-api-key-here
 ```
 
 - Never share your `.env` file or commit it to version control (e.g., GitHub).
@@ -88,6 +89,7 @@ api_key = os.getenv('GEMINI_API_KEY')
 - `basic.py` — Basic version of the AI Study Buddy with simple chat functionality
 - `advanced.py` — Advanced version with ELI5 mode and conversation context awareness
 - `requirements.txt` — Python dependencies
+- `env_template.txt` — Template for environment variables (copy to `.env` and add your API keys)
 - `README.md` — Project documentation (this file)
 
 ## 🧑‍💻 Code Explainer

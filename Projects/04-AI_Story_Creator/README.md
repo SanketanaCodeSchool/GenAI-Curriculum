@@ -20,9 +20,9 @@ pip install streamlit openai python-dotenv pillow huggingface-hub requests httpx
 
 2. Create `.env` file:
 ```bash
-# Create .env file and add your API keys
-OPENAI_API_KEY=your-openai-api-key-here
-HUGGINGFACE_TOKEN=your-huggingface-token-here
+# Copy the template file and rename it to .env
+cp env_template.txt .env
+# Edit .env and add your actual API keys
 ```
 
 3. Run the application:
@@ -36,8 +36,8 @@ This project uses a `.env` file to securely store your API keys for both OpenAI 
 
 **Example `.env` file:**
 ```env
-OPENAI_API_KEY=your-openai-api-key-here
-HUGGINGFACE_TOKEN=your-huggingface-token-here
+OPENAI_API_KEY=your-actual-openai-api-key-here
+HUGGINGFACE_TOKEN=your-actual-huggingface-token-here
 ```
 
 - Never share your `.env` file or commit it to version control (e.g., GitHub).
@@ -87,6 +87,7 @@ hf_token = os.getenv('HUGGINGFACE_TOKEN')
 
 - `app.py` — Main Streamlit application script
 - `requirements.txt` — Python dependencies
+- `env_template.txt` — Template for environment variables (copy to `.env` and add your API keys)
 - `README.md` — Project documentation (this file)
 
 ## 🧑‍💻 Code Explainer

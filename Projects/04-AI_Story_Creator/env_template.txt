@@ -1,0 +1,7 @@
+# OpenAI API Key
+# Get your API key from: https://platform.openai.com/account/api-keys
+OPENAI_API_KEY=your-openai-api-key-here
+
+# Hugging Face Token
+# Get your token from: https://huggingface.co/settings/tokens
+HUGGINGFACE_TOKEN=your-huggingface-token-here 

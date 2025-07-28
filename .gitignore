@@ -43,7 +43,11 @@ Pipfile.lock
 
 # dotenv environment variables
 **/.env
-**/.env.*
+**/.env.local
+**/.env.production
+**/.env.staging
+# Allow .env.template files to be committed
+!**/.env.template
 
 # VS Code settings
 .vscode/

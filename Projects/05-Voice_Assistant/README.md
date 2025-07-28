@@ -20,9 +20,9 @@ pip install gradio openai python-dotenv elevenlabs
 
 2. Create `.env` file:
 ```bash
-# Create .env file and add your API keys
-OPENAI_API_KEY=your-openai-api-key-here
-ELEVENLABS_API_KEY=your-elevenlabs-api-key-here
+# Copy the template file and rename it to .env
+cp env_template.txt .env
+# Edit .env and add your actual API keys
 ```
 
 3. Run the application:
@@ -36,8 +36,8 @@ This project uses a `.env` file to securely store your API keys for both OpenAI 
 
 **Example `.env` file:**
 ```env
-OPENAI_API_KEY=your-openai-api-key-here
-ELEVENLABS_API_KEY=your-elevenlabs-api-key-here
+OPENAI_API_KEY=your-actual-openai-api-key-here
+ELEVENLABS_API_KEY=your-actual-elevenlabs-api-key-here
 ```
 
 - Never share your `.env` file or commit it to version control (e.g., GitHub).
@@ -86,6 +86,7 @@ elevenlabs_key = os.getenv('ELEVENLABS_API_KEY')
 
 - `app.py` — Main Gradio application script
 - `requirements.txt` — Python dependencies
+- `env_template.txt` — Template for environment variables (copy to `.env` and add your API keys)
 - `README.md` — Project documentation (this file)
 
 ## 🧑‍💻 Code Explainer
