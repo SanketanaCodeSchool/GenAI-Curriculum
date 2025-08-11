@@ -1,0 +1,2 @@
+# This file ensures the scanned_books directory is tracked in git
+# The directory is used to store extracted text from uploaded PDF books 
