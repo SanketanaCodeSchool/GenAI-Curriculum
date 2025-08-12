@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Create books directory
 BOOKS_DIR = "scanned_books"
