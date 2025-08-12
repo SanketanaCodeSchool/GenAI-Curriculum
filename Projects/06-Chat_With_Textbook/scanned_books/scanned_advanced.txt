@@ -1,0 +1,36 @@
+We understand that acids can react with substances vigorously and bases can do the 
+same too. But what do you think might happen if an acid reacts with a base?! 
+
+Surprisingly, when an acid reacts with a base, they neutralize each other. They cancel 
+each other's reactive nature and form another substance called salt and water. Salt is not a term that is used to only describe the table salt that we use. Salts are compounds that are formed when acids and bases react with each other. Such reactions are called neutralization reactions. The reaction for neutralization would be 
+written like this - 
+
+Acids + Bases ------> Salt + Water 
+
+For example: 
+
+HCl + NaOH ------> NaCl + HO 
+
+HCl is hydrochloric acid 
+NaOH is Sodium hydroxide which is a base 
+NaCl is Sodium chloride which is a salt 
+H,O is water 
+
+'Woah woah woah! Wait Animo! I think we went a little too fast there. How exactly are these symbols and names of these compounds written?' 
+
+Animo's Master Class 
+Naming Compounds 
+
+Remember compounds are formed when two or more elements combine chemically. 
+
+Here are the rules for naming a compound. Follow them to get the names right. 
+
+1. The element that comes first when moving left to right on the periodic table is written first. For example - Na₂O is named Sodium oxide. Sodium comes first in the periodic table when moving from right to left. 
+
+2. Compounds that contain non-metals like oxygen, chlorine, fluorine, nitrogen, sulfur and so on end with the suffix '-ide'. For example - oxide, chloride, sulfide, fluoride, nitride. 
+
+3. If there are three elements in a compound with oxygen in it, then the compound name would end with a suffix '-ate'. For example - sulfate, carbonate, nitrate, 
+phosphate. An exception to this is OH which is called hydroxide and not hydrate.
+
+© Avida Educational Trust
+
